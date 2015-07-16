@@ -13,4 +13,5 @@ include(gmcommon)
 
 CreateSolution("xconsole")
 	CreateProject(SERVERSIDE)
+		warnings("Default")
 		IncludeSourceSDK()
