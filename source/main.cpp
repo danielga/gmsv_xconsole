@@ -1,8 +1,8 @@
 #include <GarrysMod/Lua/Interface.h>
-#include <ByteBuffer.hpp>
+
 #include <dbg.h>
-#include <Color.h>
-#include <Windows.h>
+#include <color.h>
+
 #include <cstdint>
 #include <string>
 #include <thread>

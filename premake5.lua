@@ -11,6 +11,5 @@ include(assert(_OPTIONS.gmcommon or os.getenv("GARRYSMOD_COMMON"),
 
 CreateWorkspace({name = "xconsole"})
 	CreateProject({serverside = true})
-		warnings("Default")
 		IncludeSDKCommon()
 		IncludeSDKTier0()
